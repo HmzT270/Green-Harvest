@@ -1,0 +1,58 @@
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    width: 100%;
+  }
+
+  .header {
+    width: 100%;
+    height: 1024px;
+    background-image: linear-gradient(
+        rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)
+      ),
+      url(../images/background-image/vegetables-tablet.jpg);
+  }
+
+  .header-list {
+    width: 100%;
+  }
+
+  .header-svg {
+    left: 30px;
+  }
+
+  .menu-tablet {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 32px;
+  }
+
+  .green-harvest {
+    left: 40px;
+  }
+
+  .page-menu-list {
+    display: none;
+  }
+
+  .title {
+    max-width: 704px;
+    width: 100%;
+    height: 228px;
+    font-size: 76px;
+    line-height: 76px;
+    letter-spacing: -1.5%;
+    top: 40px;
+  }
+
+  .text {
+    max-width: 603px;
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    line-height: 20px;
+    top: 70px;
+  }
+}

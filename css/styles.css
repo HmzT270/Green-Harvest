@@ -1,0 +1,139 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Inter Tight", sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.header {
+  width: 1280px;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.2),
+      rgba(20, 20, 20, 0.2)
+    ),
+    url(../images/background-image/vegetables.jpg);
+}
+
+.header-svg {
+  position: relative;
+  left: 75px;
+  top: 40px;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+.menu-tablet {
+  display: none;
+}
+
+.header-list {
+  display: flex;
+  gap: 550px;
+  padding: 20px;
+}
+
+.green-harvest {
+  color: #fbfbfb;
+  position: relative;
+  left: 80px;
+}
+
+.page-menu-list {
+  display: flex;
+}
+
+.page-menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -2%;
+  margin-right: 10px;
+  border: 1px, solid, #fbfbfb66;
+  border-radius: 30px;
+  padding: 12px;
+  color: #fbfbfb;
+}
+
+.shop-now {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -1.5%;
+  border: 1px, solid, #7a3145;
+  border-radius: 30px;
+  padding: 12px;
+  color: #fbfbfb;
+  background-color: #7a3145;
+  position: relative;
+  bottom: 12px;
+  cursor: pointer;
+}
+
+.shop-now:hover {
+  background-color: #622133;
+}
+
+.title {
+  max-width: 502px;
+  width: 100%;
+  height: 304px;
+  font-weight: 600;
+  font-size: 76px;
+  line-height: 76px;
+  letter-spacing: -1.5%;
+  color: #fbfbfb;
+  position: relative;
+  top: 100px;
+  left: 30px;
+}
+
+.text {
+  max-width: 472px;
+  width: 100%;
+  height: 80px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fbfbfb;
+  position: relative;
+  top: 200px;
+  left: 30px;
+  padding-left: 10px;
+}
