@@ -83,20 +83,21 @@ header a {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  letter-spacing: -2%;
+  letter-spacing: -0.02em;
   margin-right: 10px;
-  border: 1px, solid, #fbfbfb66;
+  border: 1px solid #fbfbfb66;
   border-radius: 30px;
   padding: 12px;
   color: #fbfbfb;
+  font-family: Inter Tight;
 }
 
 .shop-now {
   font-weight: 600;
   font-size: 18px;
   line-height: 20px;
-  letter-spacing: -1.5%;
-  border: 1px, solid, #7a3145;
+  letter-spacing: -0.015em;
+  border: 1px solid #7a3145;
   border-radius: 30px;
   padding: 12px;
   color: #fbfbfb;
@@ -104,6 +105,7 @@ header a {
   position: relative;
   bottom: 12px;
   cursor: pointer;
+  font-family: Inter Tight;
 }
 
 .shop-now:hover {
@@ -117,11 +119,12 @@ header a {
   font-weight: 600;
   font-size: 76px;
   line-height: 76px;
-  letter-spacing: -1.5%;
+  letter-spacing: -0.015em;
   color: #fbfbfb;
   position: relative;
   top: 100px;
   left: 30px;
+  font-family: Inter Tight;
 }
 
 .text {
