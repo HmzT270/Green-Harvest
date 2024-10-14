@@ -89,7 +89,6 @@ header a {
   border-radius: 30px;
   padding: 12px;
   color: #fbfbfb;
-  font-family: Inter Tight;
 }
 
 .shop-now {
@@ -105,7 +104,6 @@ header a {
   position: relative;
   bottom: 12px;
   cursor: pointer;
-  font-family: Inter Tight;
 }
 
 .shop-now:hover {
@@ -124,7 +122,6 @@ header a {
   position: relative;
   top: 100px;
   left: 30px;
-  font-family: Inter Tight;
 }
 
 .text {
